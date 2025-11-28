@@ -1,0 +1,62 @@
+
+/* NAVIGATION */
+
+.nav {
+    position: fixed;
+    top: 32px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+
+    fill: white;
+    color: white;
+}
+
+
+/* PROJECT TEASER */
+
+.project-teaser {
+    width: 100%;
+    aspect-ratio: 4/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( color-mix(in srgb, var(--color-background-primary) 90%, transparent), color-mix(in srgb, var(--color-background-primary) 80%, transparent)), url("bike-tribal.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.project-teaser a {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 4/3;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.project-teaser a:hover {
+    transform: scale(1.04);
+}
+
+.project-teaser .top {
+    text-align: right;
+}
+
+.project-teaser .image {
+    width: 100%;
+    height: 100%;
+    background-image: url("bike-tribal.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

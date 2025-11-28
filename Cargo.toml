@@ -1,0 +1,9 @@
+[package]
+name = "ssg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lol_html = "2.7.0"
+pulldown-cmark = "0.13.0"
+tera = "1.20.1"
